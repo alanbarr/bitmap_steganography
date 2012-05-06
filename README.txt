@@ -21,6 +21,16 @@
     ./executable <bitmap_with_info> 
     \n </CODE>
 
+  @section Todo
+
+    There are two main features that are missing from this program:
+    -  Some form of password encryption could protect the data. (Of course
+       currently this could be handled by a third party application before this 
+       program is run.)
+    -  A better method to "spread" the data throughout the bitmap. Currently 
+       one byte of data is stored to one pixel but ideally this should vary 
+       depending on the sizes of the data and bitmap.
+
   @section li_sec License
  
     This program is free software: you can redistribute it and/or modify
@@ -35,5 +45,6 @@
  
     You should have received a copy of the GNU General Public License
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
  
 */
